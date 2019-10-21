@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".activities.AppDetailActivity"
+    tools:context="net.autogroup.apkextractor.activities.AppDetailActivity"
     tools:showIn="@layout/activity_app_detail">
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,7 +41,7 @@
                 android:text="应用名称"/>
         </LinearLayout>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
@@ -252,9 +252,9 @@
 
             </LinearLayout>
 
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
@@ -627,9 +627,9 @@
 
             </LinearLayout>
 
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:id="@+id/app_detail_card_permissions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -680,9 +680,9 @@
                     android:id="@+id/app_detail_permission"
                     android:visibility="gone"/>
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:id="@+id/app_detail_card_activities"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -733,9 +733,9 @@
                     android:id="@+id/app_detail_activity"
                     android:visibility="gone"/>
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:id="@+id/app_detail_card_receivers"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -786,9 +786,9 @@
                     android:id="@+id/app_detail_receiver"
                     android:visibility="gone"/>
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:id="@+id/app_detail_card_static_loaders"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -839,7 +839,7 @@
                     android:id="@+id/app_detail_static_loader"
                     android:visibility="gone"/>
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
         <ProgressBar
             android:id="@+id/app_detail_card_pg"
@@ -850,4 +850,4 @@
             android:layout_marginTop="30dp"/>
     </LinearLayout>
 
-</android.support.v4.widget.NestedScrollView>
+</androidx.core.widget.NestedScrollView>
