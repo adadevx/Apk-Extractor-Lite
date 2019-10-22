@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "net.autogroup.apkextractor"
+        applicationId "net.adadev.apkextractor"
         minSdkVersion 14
         targetSdkVersion 29
         versionCode 1

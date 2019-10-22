@@ -153,23 +153,13 @@
         <string name="word_yes"> is </string>
         <string name="word_no">no </string>
 
-    <string name="dialog_about_title">APK Kit (Build 6) </string>
+    <string name="dialog_about_title">APK Extractor Lite </string>
         <string name="dialog_about_message">\n This is a small tool for quickly querying, exporting or sharing a locally installed APP. It supports the data and Obb data in the external storage of the APP and is packaged into a zip and shared.
         (Mainly for some game applications with Data, Obb data)\n\n
 
-        Click "Share" to share the selected apps with apps that support sharing such as Bluetooth, QQ Face to Face, etc. \n\n
+        Click "Share" to share the selected apps with apps that support sharing such as Bluetooth, Wifi, etc. \n\n
 
-    After checking the Export Data or Obb option, the application APK and Data or Obb data will be packaged into a zip export. \n\n
-    <b>Build 6 update log:</b> \n
-    <b>Change: New Material Design theme and partial refactoring interface, logic;</b>\n
-    <b>New: Night black theme adaptation;</b>\n
-    <b>Change: Multiple selection can be performed in search mode;</b>\n
-    <b>New: uses-permission, activity component, broadcast receiver (Receiver) view function;</b>\n\n
-
-        Open source address: \n
-         Https://github.com/ghmxr/apkextractor \n\n
-        Email: \n
-        Mxremail@qq.com \n\n
-        A reward of:
+        After checking the Export Data or Obb option, the application APK and Data or Obb data will be packaged into a zip export. \n\n
+        Opensource Forked from ghmxr/apkextractor
         </string>
 </resources>

@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="net.autogroup.apkextractor.activities.AppDetailActivity">
+    tools:context="net.adadev.apkextractor.activities.AppDetailActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar"
@@ -41,7 +41,7 @@
                     android:src="@mipmap/ic_launcher"
                     app:layout_anchor="@id/toolbar_background"
                     android:transitionName="icon"/>
-                <net.autogroup.apkextractor.ui.AutoMarqueeTextView
+                <net.adadev.apkextractor.ui.AutoMarqueeTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/app_detail_name"
@@ -76,7 +76,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_anchor="@id/toolbar_background"
-        app:layout_behavior="net.autogroup.apkextractor.ui.TranslucentBehavior"
+        app:layout_behavior="net.adadev.apkextractor.ui.TranslucentBehavior"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
