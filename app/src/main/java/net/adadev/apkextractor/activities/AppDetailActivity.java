@@ -65,7 +65,7 @@ public class AppDetailActivity extends BaseActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
 
         mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitialAd.setAdUnitId("");
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
         //appItem=getIntent().getParcelableExtra(EXTRA_PARCELED_APP_ITEM);
